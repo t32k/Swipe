@@ -112,7 +112,7 @@ function Swipe(container, options) {
 			return;
 		}
 		style.webkitTransitionDuration = style.transitionDuration = speed + 'ms';
-		style.webkitTransform = 'translate(' + dist + 'px,0)' + 'translateZ(0)';
+		style.webkitTransform = 'translate(' + dist + 'px,0)';
 	}
 
 	function animate(from, to, speed) {
